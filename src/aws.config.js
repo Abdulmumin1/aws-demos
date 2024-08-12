@@ -15,3 +15,4 @@ AWS.config.update({
 });
 
 export const sns = new AWS.SNS();
+export const rekognition = new AWS.Rekognition();
