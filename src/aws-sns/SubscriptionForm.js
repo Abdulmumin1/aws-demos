@@ -1,6 +1,6 @@
 // SubscriptionForm.js
 import React, { useState } from "react";
-import { sns } from "./aws.config";
+import { sns } from "../aws.config";
 
 const SubscriptionForm = () => {
   const [email, setEmail] = useState("");
